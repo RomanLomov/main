@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
           const obj = { 
             header: node.nodeName,
             content: node.textContent
-          }
+          };
           textNodes.push(obj);
         } else {
            recursy(node);
